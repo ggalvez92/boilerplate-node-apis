@@ -1,5 +1,5 @@
 const { responsesTypes } = require("../../../config/responsesTypes");
-const { User } = require("../../../db/models");
+const { User } = require("../../../Db/Models");
 const jwt = require("jsonwebtoken");
 
 const generateToken = (user) => {
